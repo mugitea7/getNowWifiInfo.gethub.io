@@ -1,3 +1,15 @@
+<script type="text/javascript">
+    function getConnectionInfo(){
+        var wifiMgr = window.navigator.mozWifiManager;
+
+        var network = wifiMgr.connection.network;
+        var status = wifiMgr.connection.status;
+        document.getElementById("ssid").innerHTML = network.ssid;
+    }
+</script>
+
 <html>
+    <script>getConnectionInfo()</script>
     <h1>title</h1>
+    <p id="ssid">hoge</p>
 </html>

@@ -1,0 +1,9 @@
+{
+    "name": "アクセスポイントの探索",
+    "description": "周囲のアクセスポイントを探索し情報を表示するアプリ",
+    "launch_path": "/index.html",
+    "type": "certified",
+    "permissions":{
+        "wifi-manage": {"description": "アクセスポイントの探索のため"}
+    }
+}
